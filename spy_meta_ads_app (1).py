@@ -43,7 +43,7 @@ if st.button("Buscar Anúncios"):
                     snapshot = ad.get('ad_snapshot_url', '#')
 
                     st.markdown(f"**Título:** `{titulo}`")
-                    st.markdown(f"**Copy:**
+                    st.markdown(f"**Copy:**\n\n{copy}")
                     st.code(copy, language="markdown")
                     st.markdown(f"[Ver Anúncio na Biblioteca]({snapshot})")
 
