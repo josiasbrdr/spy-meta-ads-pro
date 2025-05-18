@@ -44,8 +44,6 @@ if st.button("Buscar Anúncios"):
 
                     st.markdown(f"**Título:** `{titulo}`")
                     st.markdown(f"**Copy:**
-
-{copy}")
                     st.code(copy, language="markdown")
                     st.markdown(f"[Ver Anúncio na Biblioteca]({snapshot})")
 
